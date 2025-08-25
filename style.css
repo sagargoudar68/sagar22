@@ -1,0 +1,469 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;/*16px*/
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;/*16px*/
+    overflow: auto;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    background-color:#121212 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    height: 100px;
+    padding: 0.6rem 0.75rem;
+    margin: 0.4rem;
+}
+
+.nav-option{
+    height: 40px;
+    line-height: 2.5rem;
+    opacity: 0.7;
+    background-color: #121212;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+
+}
+.nav-option:hover{
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+    background-color: #121212;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    background-color: #121212;
+    margin: 0.75rem;
+}
+
+.your-lib{
+    display: flex;
+    padding:  0.6rem 0.75rem;
+    margin: 0.4rem;
+    flex-direction: row;
+    border-radius: 1rem;
+    background-color: #121212;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+.lib-icon{
+    background-color: #121212;
+}
+.lib-icon a{
+    background-color: #121212;
+    margin: 0.75rem;
+    opacity: 0.7;
+}
+.lib-icon a:hover{
+    opacity: 1;
+}
+.your-lib i{
+    background-color: #121212;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    
+}
+.your-lib i:hover{
+    opacity: 1;
+    
+}
+.your-lib .icons{
+    background-color: #121212;
+
+}
+
+
+.your-lib img{
+    padding-left: 0.8rem;
+    opacity: 0.7;
+}
+.your-lib img:hover{
+    opacity: 1;
+}
+
+.library{
+    height: 100%;
+    border-radius: 1rem;
+    background-color: #121212;
+    margin: 0.4rem;
+
+}
+#plus{
+    padding-right: 0.9rem;
+}
+
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.box-p1{
+    font-size: 1rem;
+    background-color: #232323;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 1.25rem;
+}
+
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.75rem;
+    background-color: #232323;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+.badge{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding:0.25rem 1rem;
+    font-weight: 600;
+    margin-top: 0.5 rem;
+    height: 2rem;
+    width: fit-content;
+    
+}
+.lib-box{
+    background-color: #121212;
+
+}
+
+.box2{
+    height: 9rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #121212;
+    margin: 0;
+    padding:0.75rem 0.3rem;
+    height: 2.5rem;
+    align-items: center;
+    z-index: 1;
+}
+
+.sticky-nav .arrow{
+    background-color: #121212;
+    padding-left: 0.75rem;
+    
+}
+
+.arrow a{
+    background-color: #121212;
+    opacity: 0.7;
+}
+.arrow a:hover{
+    opacity: 1;
+}
+.arrow img{
+    background-color: #121212;
+    padding-right: 0.3rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.sticky-nav-items{
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+}
+
+#user{
+    background-color: #121212;
+    font-size: 1.25rem;
+    padding: 0 1.5rem 0 1rem;
+}
+.sticky-nav-items a{
+    background-color: #121212;
+    padding-left: 1rem;
+}
+
+.badge i{
+    background-color: #000;
+    color: #fff;
+    padding-right: 0.5rem;
+    font-size: 1.25rem;
+}
+.sticky-nav-items .badge{
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.sticky-nav-items .badge:hover{
+    opacity: 1;
+}
+
+.main-content{
+    padding: 0;
+    margin:0.5rem 0 0 0 ;
+
+}
+
+#download{
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width :1000px){
+    .hide{
+        display: none;
+    }
+}
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem ;
+    margin-top: 1rem;
+    line-height: 1.25rem;
+    
+}
+.card-title{
+    background-color: #232323;
+}
+.card-info{
+    background-color: #232323  ;
+}
+
+.cards h2{
+    background-color: #121212;
+    padding: 1rem;
+}
+
+.card-container{
+
+    display: flex;
+    background-color: #121212;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+.footer{
+    height: 300px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    background-color: #121212;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+}
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+}
+.album img{
+    height: 50px;
+    width: 50px;
+}
+.album i{
+    margin-left: 1.5rem;
+}
+.album i:hover{
+    background-color: #1ED760;
+    color: black;
+}
+.album-title{
+    font-weight: 400;
+    margin-left: 1.25rem;
+}
+.album-des{
+    font-size: 0.65rem;
+    margin-left: 1.25rem;
+}
+
+.album-text{
+    display: flex;
+    align-items: center;
+}
+
+.album-icon i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%; /* makes it round */
+    transition: background-color 0.2s;
+} 
+
+.music-player{
+    display: flex;
+    flex-direction: row;
+}
+.controls{
+    background-color: #000;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.controls-icon i{
+margin: 0rem;
+font-size: 1rem;
+padding: 0.5rem;
+cursor: pointer;
+border-radius: 50%; /* makes it round */
+transition: background-color 0.2s;
+
+}
+.slidercolor{
+    accent-color: #1ED760;
+    
+}
+
+.controls-icon i:hover{
+    background-color: #1ED760;
+    color: black;
+}
+
+.controls-icon {
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem;
+}
+
+
+.player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-control-icon{
+    height: 1rem;
+    width: 1rem;
+    margin-top: 0.75rem;
+    padding: 0 1rem 0 1rem;
+    opacity: 0.7;
+    
+}
+.player-control-icon:hover{
+    opacity: 1;
+
+}
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.player{
+    line-height: 2rem;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.playback-bar span{
+    font-size: 0.75rem;
+    padding: 0 4px 0 4px;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.4rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #1ED760;
+    border-radius: 50%;
+    margin-top: -1px;
+    border: 2px solid #1ED760;
+    box-shadow: 0 0 2px black;
+    
+}
